@@ -5,6 +5,7 @@
 p.text {
     color: slateblue;
 }
+/* todos los parrafos que contiene text seran de color slateblue*/
 
 p.especial{
     color: aquamarine;
@@ -22,3 +23,41 @@ div h2, div h3 {
     font-size: 24px;
     color: black;
 }
+/* seleccionador universal siempre y cuando los parametros no estes definidos*/
+
+/*
+esto 
+es 
+un 
+comentario de muchas lineas
+ 
+
+.color {
+    color: #ff0000;
+}
+
+.color{
+
+    color: rgb(10, 0, 102);
+
+
+} 
+*/
+
+.color {
+    border: 5px red outset;
+}
+
+  /*
+  dotted
+  dashed
+  solid
+  double
+  groove
+  ridge
+  inset
+  outset
+  none
+  hidden
+  
+*/
