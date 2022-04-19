@@ -45,8 +45,8 @@ comentario de muchas lineas
 */
 
 .color {
-    border: 5px red outset;
-}
+    /* border: 5px red outset; */
+
 
   /*
   dotted
@@ -61,3 +61,49 @@ comentario de muchas lineas
   hidden
   
 */
+
+
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+    border-width: 1rem;
+    /* MEDIDAS 
+    1rem es lo mas comun
+    1cm 
+    2em
+    1mm
+    1in
+    1px
+    */
+
+}
+
+#fondo {
+    background-color: rgba(255,0,0);
+    /* opacity: 0.3; */
+    height: 200px;
+    
+    background: #f00 url('imagen.png') repeat-y center bottom / 100px 100px;
+    
+}  
+
+.margen {
+    background-color: chocolate;
+    margin: 15px ;
+    padding: 30px 15px 5px;  /* espacio a tus elementos */
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+
+}
